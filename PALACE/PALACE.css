@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+section{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo_red{
+    margin-left: 0;
+}
+.home
+{
+    text-align: center;
+    width: 1000px;
+    padding: 20px 0;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    margin: 40px 0;
+    position: absolute;
+    bottom: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    display: flex;
+    margin: 4em 0 4em;
+    padding: 0;
+    list-style: none outside none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    justify-content: center;
+    width: 100%;
+    margin: 0px 51.2px;
+    
+}
+li{
+    margin: 0px 12.8px;
+    font-weight: 1000;
+    font-family: "Agency FB";
+    cursor: pointer;
+}
+
+li:hover
+{
+    text-decoration: underline;
+}
+
+.logo_red{
+    background-image: url(PALACE_LOGO_RED.png);
+    width: 221px;
+    height: 193px;
+}
+.logo_red:hover{
+    background-image: url(hover-red.PNG);
+    transition: 0.2s;
+}
+.logo_silver{
+    background-image: url(PALACE_LOGO_SILVER.png);
+    width: 221px;
+    height: 193px;
+}
+.logo_silver:hover{
+    background-image: url(hover-silver.PNG);
+    transition: 0.2s;
+}
+.logo_bule{
+    background-image: url(PALACE_LOGO_BULE.png);
+    width: 221px;
+    height: 193px;
+}
+.logo_bule:hover{
+    background-image: url(hover-bule.PNG);
+    transition: 0.2s;
+}
+.logo_black{
+    background-image: url(PALACE_LOGO_BLACK.png);
+    width: 221px;
+    height: 193px;
+}
+.logo_black:hover{
+    background-image: url(hover-black.PNG);
+    transition: 0.2s;
+}
+section div{
+    margin-left: 40px;
+    margin-bottom: 28px;
+    cursor: pointer;
+    transition: 0.1s;
+}
